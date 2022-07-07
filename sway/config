@@ -16,6 +16,7 @@ for_window [app_id="QtScrcpy"] floating enable
 #autostart
 exec --no-startup-id fcitx5 -d
 exec --no-startup-id dunst
+exec --no-startup-id nm-tray
 
 ### Variables
 #
@@ -40,7 +41,7 @@ set $home /home/catarch
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #exec_always --no-startup-id swaybg -i /usr/share/backgrounds/archlinux/archwave.png
-output * bg /usr/share/backgrounds/archlinux/sunset* fill
+#output * bg /usr/share/backgrounds/archlinux/sunset* fill
 #
 # Example configuration:
 #
